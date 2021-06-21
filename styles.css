@@ -27,6 +27,12 @@ body {
     min-height: 100vh;
 }
 
+.shadow {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(58, 46, 46, 0.281),
+      0 6px 20px 0px rgba(241, 243, 242, 0.856);
+  }
+
 .form-control:not(select) {
     padding: 0.8rem 0.5rem;
 }
@@ -46,3 +52,4 @@ select.form-control {
 .form-control:focus {
     box-shadow: none;
 }
+
